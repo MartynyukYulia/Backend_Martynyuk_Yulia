@@ -1,0 +1,122 @@
+body {
+    font-family: sans-serif;
+}
+
+h1, h2 {
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+form {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.back-link {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.actions a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #337ab7;
+    border-radius: 3px;
+    color: #337ab7;
+    font-size: 0.9em;
+}
+
+.actions a:hover {
+    background-color: #337ab7;
+    color: white;
+}
+
+.add-button,
+.stats-button {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.add-button a {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 3px;
+}
+
+.add-button a:hover {
+    background-color: #4cae4c;
+}
+
+.stats-button a {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 3px;
+}
+
+.stats-button a:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
